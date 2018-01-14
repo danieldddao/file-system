@@ -1,6 +1,7 @@
 # Implemented a file system that resembles FAT using C
 
 ### The file system will be stored in a binary file within the current directory. Overall, the file system has the following setup:
+<img src="https://github.com/danieldddao/file-system/blob/master/img.png" width="250">
 
 The file is organized in clusters that are composed of multiple sectors. The number of sectors per cluster and the size of sectors (in bytes) are set during the formatting process.
 
